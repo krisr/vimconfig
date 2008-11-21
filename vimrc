@@ -8,6 +8,7 @@ set expandtab
 set backspace=start,indent
 
 set number
+set nowrap
 set hlsearch
 syntax on
 

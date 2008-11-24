@@ -23,3 +23,4 @@ map <leader>t :FuzzyFinderTextMate<CR>
 map <leader>b :FuzzyFinderBuffer<CR>
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+map <C-q> @q

@@ -1,5 +1,7 @@
 runtime vimrc_example.vim
 
+set nocompatible
+
 let mapleader = ","
 
 set tabstop=2
@@ -7,7 +9,7 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
-set backspace=start,indent
+set backspace=2 " Let backspace delete line endings etc
 
 set number
 set hlsearch

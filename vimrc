@@ -10,6 +10,9 @@ set shiftwidth=2
 set autoindent
 set expandtab
 set backspace=2 " Let backspace delete line endings etc
+set hidden " enable switching buffers when not saved
+set ignorecase " ignore case in searches
+set smartcase " don't ignore case if a search string contains an upper case character
 
 set number
 set hlsearch
